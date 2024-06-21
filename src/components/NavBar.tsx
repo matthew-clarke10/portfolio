@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <>
-      <nav className="bg-background-nav">
+      <nav className="bg-background-nav h-16">
         <div className="px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="flex-1 flex justify-center sm:justify-start">

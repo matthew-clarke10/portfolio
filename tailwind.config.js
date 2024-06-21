@@ -17,6 +17,9 @@ export default {
           nav: 'rgb(17 24 39)',
         },
       },
+      height: {
+        'about': 'calc(100vh - 4rem)',
+      },
     },
   },
   plugins: [],
