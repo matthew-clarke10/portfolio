@@ -16,9 +16,11 @@ export default {
           DEFAULT: 'rgb(31 41 55)',
           nav: 'rgb(17 24 39)',
         },
+        tan: '#d2b48c',
       },
       height: {
-        'about': 'calc(100vh - 4rem)',
+        'about': '100vh',
+        'projects': 'calc(100vh - 4rem)',
       },
     },
   },
