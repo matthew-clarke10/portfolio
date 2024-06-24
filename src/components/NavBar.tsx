@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+
 function NavBar() {
   return (
     <nav className="bg-background-nav h-16 fixed w-full">
@@ -25,7 +28,9 @@ function NavBar() {
                   projectsSection.scrollIntoView({ behavior: 'smooth' });
                 }
               }}>Projects</a>
-              <button className="absolute -top-6 right-0 sm:static rounded-md px-3 py-2 text-xl font-medium text-primary hover:bg-gray-800 hover:text-primary-hover border-2 border-primary hover:border-primary-hover">Resume</button>
+              <a href="./resume.pdf" target="_blank" className="absolute -top-6 right-0 sm:static rounded-md px-3 py-2 text-xl font-medium text-primary hover:bg-gray-800 hover:text-primary-hover border-2 border-primary hover:border-primary-hover">
+                Resume <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
+              </a>
             </div>
           </div>
         </div>
