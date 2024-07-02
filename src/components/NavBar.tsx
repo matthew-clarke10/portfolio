@@ -28,7 +28,7 @@ function NavBar() {
                   projectsSection.scrollIntoView({ behavior: 'smooth' });
                 }
               }}>Projects</a>
-              <a href="./resume.pdf" target="_blank" className="absolute -top-6 right-0 sm:static rounded-md px-3 py-2 text-xl font-medium text-primary hover:bg-gray-800 hover:text-primary-hover border-2 border-primary hover:border-primary-hover">
+              <a href="./resume.pdf" target="_blank" className="absolute -top-6 right-0 sm:static text-center rounded-md w-36 px-3 py-2 text-xl font-medium text-primary hover:bg-gray-800 hover:text-primary-hover border-2 border-primary hover:border-primary-hover">
                 Resume <FontAwesomeIcon icon={faExternalLinkAlt} className="ml-1" />
               </a>
             </div>
