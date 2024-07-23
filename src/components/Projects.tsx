@@ -48,7 +48,7 @@ function Projects() {
         <div className="flex flex-col border-8 border-primary w-11/12 mx-auto">
           <img src="/portfolio/images/front-end-quizzes-project.png" alt="ChessPuzzler App" className="w-full" />
           <div className="flex flex-col mx-auto text-center">
-            <div className="text-4xl my-4">Front-End Quizzes</div>
+            <div className="text-4xl my-4">Front-end Quizzes</div>
             <div className="mx-4">A fun quiz application that quizzes users on their HTML, CSS, and JavaScript knowledge. The application gives users powerups and 30 seconds per question, as well as the option to play music.</div>
             <div className="flex flex-wrap gap-4 mx-8 my-4 justify-center items-center h-24 sm:h-12">
               <FaHtml5 title="HTML" size={36} className="text-orange-600 hover:cursor-pointer" />
