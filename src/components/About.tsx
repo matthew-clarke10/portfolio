@@ -10,7 +10,7 @@ function About() {
       <div className="flex flex-col gap-4 md:flex-row md:gap-16">
         <div className="sm:text-xl md:max-w-64 mx-8 leading-8 text-center">I'm currently in the final year of my Software Engineering degree and am passionate about developing full-stack web applications. I also enjoy developing games and mobile apps in my free time.</div>
         <div>
-          <div className="sm:text-xl mb-4 text-center">I have experiencing with the following:</div>
+          <div className="sm:text-xl mb-4 text-center">I have experience with the following:</div>
           <div className="flex flex-wrap gap-4 mx-8 md:max-w-72 justify-center">
             <FaHtml5 title="HTML" size={48} className="text-orange-600 hover:cursor-pointer" />
             <FaCss3Alt title="CSS" size={48} className="text-blue-600 hover:cursor-pointer" />
