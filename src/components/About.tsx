@@ -5,7 +5,7 @@ import { SiTypescript, SiPython, SiCplusplus } from "react-icons/si";
 function About() {
   return (
     <section id="about" className="h-about flex flex-col items-center justify-center">
-      <div className="text-6xl sm:text-8xl text-primary font-semibold mb-4">Hi, I'm Matthew.</div>
+      <div className="text-6xl sm:text-8xl text-primary font-semibold mb-4 text-center">Hi, I'm Matthew.</div>
       <div className="text-2xl sm:text-4xl font-semibold mb-16">Software Engineer & Web Developer.</div>
       <div className="flex flex-col gap-4 md:flex-row md:gap-16">
         <div className="sm:text-xl md:max-w-64 mx-8 leading-8 text-center">I'm currently in the final year of my Software Engineering degree and am passionate about developing full-stack web applications. I also enjoy developing games and mobile apps in my free time.</div>
